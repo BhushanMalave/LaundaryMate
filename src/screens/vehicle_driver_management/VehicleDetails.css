@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.vehicle-details-container-main {
+  width: 100%;
+  height: 88vh;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  margin-right: 0px;
+  /* border: 1px solid; */
+}
+.vehicle-details-container::-webkit-scrollbar {
+  display: none;
+}
+.main-heading-container {
+}
+.main-heading-vehicle-details {
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+
+  margin-left: 0px;
+  margin-top: 30px;
+}
+.vehicle-details-header-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.details-heading-vehicle-details {
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #181818;
+}
+.left-arrow {
+  width: 18px;
+  height: 12px;
+  margin-right: 10px;
+}
+.linking-section-vehicledetails {
+  display: flex;
+  flex-direction: row;
+
+  width: fit-content;
+  height: 40px;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-top: 32px;
+  overflow-x: scroll;
+  margin-bottom: 0px;
+}
+.vehicle-details {
+  text-align: center;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 4px solid #0074bc;
+  color: #0074bc;
+  text-decoration: none;
+}
+.vendor-details {
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9d9d9d;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.vehicle-details-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  height: fit-content;
+  padding: 25px 35px;
+}
+.vehicle-details-container-heading {
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+.vehicle-details-content-box {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+.vendor-details-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  height: 156px;
+  margin-top: 20px;
+  padding: 25px 35px;
+  overflow-y: scroll;
+}
+.vendor-details-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.edit-pen-button {
+  width: 20px;
+  height: 20px;
+}
+.vehicle-details-container-group {
+  display: flex;
+  justify-content: space-between;
+}

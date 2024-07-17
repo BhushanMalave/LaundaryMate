@@ -1,0 +1,136 @@
+.container_export {
+  height: 44px;
+  width: 109px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  gap: 8px;
+  background: #ffcc04;
+  border-radius: 8px;
+}
+
+.applybtn_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  width: 99px;
+  height: 44px;
+
+  background: #0074bc;
+  border-radius: 8px;
+}
+
+.applybtn_text {
+  font-family: "Bold";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.sync-btn {
+  background: #0074bc;
+  border-radius: 8px;
+  width: 92px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 6px;
+  box-sizing: border-box;
+}
+.rotate {
+  animation: rotate 0.3s linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.locationExport {
+  height: 44px;
+  min-width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffcc04;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.exportImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locationExportText {
+  font-family: "Bold";
+  font-size: 16px;
+  line-height: 24px;
+  color: #0074bc;
+  margin-left: 5px;
+}
+
+.addBut {
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #0074bc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.addButText {
+  color: white;
+  font-family: "Bold";
+  font-size: 16px;
+  line-height: 24px;
+}
+.content-box-container {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  width: 300px;
+}
+.content-box-heading {
+  /* width: 36px; */
+  height: 16px;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #808080;
+}
+.content-box-content {
+  /* width: 117px; */
+  height: 24px;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #181818;
+  flex-wrap: wrap;
+  height: fit-content;
+}

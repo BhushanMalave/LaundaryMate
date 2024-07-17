@@ -1,0 +1,123 @@
+.emp-det-edit-modal-main-container {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.4
+    ); /* Overlay effect: translucent background: black w/ partial opacity */
+    z-index: 1; /* Overlay effect: positioned over other containers */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: auto;
+    left: 0;
+    flex-direction: row;
+  }
+  .emp-det-edit-modal-content {
+    height: 100%;
+    width: 480px;
+    background-color: #ffffff;
+    position: fixed;
+    right: 0;
+  }
+  .emp-det-edit-modal-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    padding: 20px 40px;
+    border-bottom: 1px solid #e6e7e9;
+  
+  }
+  .emp-det-edit-modal-header-text{
+    font-family: "Bold";
+    font-style: normal;
+    font-size: 18px;
+  line-height: 24px;
+    color: #181818;
+  }
+  .emp-det-edit-modal-close-button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:24px;
+    width:24px;
+  }
+  .emp-det-edit-modal-close-button-div:hover{
+    color: #000;
+    cursor: pointer;
+    background-color: #aaaaaa;
+  }
+  .emp-det-edit-modal-close-button {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .emp-det-edit-modal-bottom-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 30px;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #e6e7e9;
+  }
+  
+  .emp-det-edit-modal-inner-container {
+    height: calc(100% - 60px);
+    /* border: 1px solid red; */
+    overflow: scroll;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 85px;
+  }
+  
+  
+  
+  .emp-det-edit-modal-modal-employee-name-id-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 6px 16px;
+    gap: 4px;
+    background: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    border-radius: 8px;
+    width: 400px;
+    height: 58px;
+  }
+  .emp-det-edit-modal-employee-name-id-placeholder {
+    font-family: "Bold";
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 12px;
+    line-height: 16px;
+    color: #808080;
+  }
+  .emp-det-edit-modal-employee-name-id-text {
+    font-family: "Regular";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #808080;
+    text-transform: capitalize;
+  }
+  .emp-det-edit-modal-text-transform-uppercase{
+    text-transform:uppercase;
+  }
+  
+  .emp-det-edit-modal-margin-top {
+    margin-top: 30px;
+    /* border: 1px solid red; */
+  }
+  
+  
+  

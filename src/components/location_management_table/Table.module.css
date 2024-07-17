@@ -1,0 +1,105 @@
+.table {
+  border-collapse: collapse;
+  border: none;
+  width: 100%;
+}
+
+.table1 {
+  border-collapse: collapse;
+  border: none;
+  width: 97%;
+  margin-top: 10px;
+}
+
+.tableRowHeader {
+  background-color: transparent;
+  transition: all 0.25s ease;
+  border-radius: 10px;
+}
+
+.tableHeader {
+  background-color: #f1f1f1;
+  padding: 12px;
+  text-align: left;
+  font-family: "Regular";
+  line-height: 16px;
+  font-size: 12px;
+  color: #808080;
+}
+.tableHeader2 {
+  background-color: #f1f1f1;
+  padding: 12px;
+  text-align: left;
+  font-family: "Regular";
+  line-height: 16px;
+  font-size: 12px;
+  color: #808080;
+  text-align: center;
+  width: 25%;
+  /* border: 1px solid; */
+}
+
+.tableHeader1 {
+  background-color: #f1f1f1;
+  padding: 5px;
+  color: #808080;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+
+.tableHeader:first-child {
+  border-top-left-radius: 15px;
+}
+
+.tableHeader:last-child {
+  border-top-right-radius: 15px;
+}
+
+.tableHeadingRow {
+  background-color: #f3f3f5;
+}
+
+.tableRowItems {
+  cursor: auto;
+  background-color: white;
+  height: 80px;
+  border-bottom: 1px solid #e2e1e6;
+  cursor: pointer;
+}
+
+.tableRowItems:hover {
+  background-color: #f3f3f5;
+}
+
+.tableCell {
+  padding: 12px;
+  font-size: 14px;
+  font-family: "Regular";
+  line-height: 18px;
+  color: black;
+}
+.tableCellDetail {
+  padding: 12px;
+  font-size: 14px;
+  font-family: "Regular";
+  line-height: 18px;
+  color: #0074bc;
+}
+.tableCellTd1 {
+  padding: 12px;
+  font-size: 14px;
+  font-family: "Regular";
+  line-height: 18px;
+  color: #0074bc;
+}
+.tableCellTd2 {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Regular";
+  line-height: 18px;
+  color: black;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  width: 25%;
+}

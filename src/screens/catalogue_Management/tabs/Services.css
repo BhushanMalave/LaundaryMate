@@ -1,0 +1,10 @@
+.container_sertb{
+   
+    height: 100%;
+    width: 100%;
+}
+.innercontainer_sertb{
+   
+    display: flex;
+    margin: 15px 0 15px 0;
+}

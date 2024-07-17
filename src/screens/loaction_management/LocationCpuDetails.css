@@ -1,0 +1,10 @@
+.locationCpuContentValue{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.locationCpuContent1{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,64 @@
+.cp-user-input-wrp {
+    position: relative;
+    width: 50%;
+    height: 44px;
+    width: 204px;
+    background: #ffffff;
+    text-decoration: none;
+    border: 1px solid #c1c1c1;
+    border-radius: 4px;
+  }
+  .cp-user-input-wrp .cp-inputText {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #777;
+    box-shadow: none !important;
+    border-bottom-style: none;
+    padding-right: 5px;
+    font-family: 'regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 10px;
+    color: #181818;
+  }
+  .cp-user-input-wrp .cp-inputText:focus {
+    border-width: medium medium 2px;
+    text-decoration: "none";
+  }
+  .cp-user-input-wrp .cp-floating-label {
+    position: absolute;
+    pointer-events: none;
+    top: 11px;
+    left: 10px;
+    transition: 0.2s ease all;
+    font-size: 16px;
+    color: #808080;
+    font-family: "regular";
+  }
+  .cp-user-input-wrp input:focus ~ .cp-floating-label,
+  .cp-user-input-wrp input:not(:focus):valid ~ .cp-floating-label {
+    top: 0px;
+    left: 10px;
+    font-size: 13px;
+    opacity: 1;
+  }
+  input[type="date"]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+  }
+  input[type="date"]:focus::-webkit-datetime-edit {
+    color: black !important;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+    filter: invert(0.7);
+    position: absolute;
+    top: 12px;
+    right: 0;
+  }
+  

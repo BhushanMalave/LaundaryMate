@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.manage-order-details-container {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 88vh;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  /* margin-left: 2.64%; */
+  margin-top: 30px;
+}
+.manage-order-details-heading {
+  display: flex;
+  flex-direction: row;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #181818;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  padding: 0px 2.64%;
+}
+.manage-order-details-header-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 330px;
+  /* border: 1px solid green; */
+}
+.manage-order-left-arrow {
+  width: 18px;
+  height: 12px;
+}
+.manage-button-section {
+  display: flex;
+  width: 340px;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.manage-order-linking-section {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+  width: 27%;
+  height: 40px;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-top: 32px;
+  /* overflow-x: scroll; */
+}
+.manage-customer-details {
+  /* width: 128px;
+    height: 35px; */
+  /* border: 1px solid red; */
+  text-align: center;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 4px solid #0074bc;
+  color: #0074bc;
+  text-decoration: none;
+}
+.manage-process-order-details {
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9d9d9d;
+  text-decoration: none;
+}
+.manage-order-customer-details-container {
+  /* border: 1px solid green; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* width: 98%; */
+  height: 413px;
+  margin-top: 20px;
+  padding: 25px 35px;
+  margin-left: 2.64%;
+  margin-right: 2.64%;
+}
+.manage-order-customer-details-container-heading {
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  /* border: 1px solid red; */
+}
+.manage-custo-section1 {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.manage-custo-section2 {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.manage-order-process-details-container {
+    /* border: 1px solid green; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* width: 98%; */
+    height: 413px;
+    margin-top: 20px;
+    padding: 25px 35px;
+    margin-left: 2.64%;
+    margin-right: 2.64%;
+  }
+  .manage-order-process-details-container-heading {
+    font-family: "Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    /* border: 1px solid red; */
+  }
+  .manage-process-section1 {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .manage-process-section2 {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .manage-order-order-details-container {
+    /* border: 1px solid green; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* width: 98%; */
+    height: 413px;
+    margin-top: 20px;
+    padding: 25px 35px;
+    margin-left: 2.64%;
+    margin-right: 2.64%;
+  }
+  .manage-order-order-details-container-heading {
+    font-family: "Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    /* border: 1px solid red; */
+  }
+  .manage-order-section1 {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  

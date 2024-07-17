@@ -1,0 +1,36 @@
+.cpuUpdate_main {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+.cpuUpdate_maindiv {
+  position: relative;
+  width: 480px;
+  height: 378px;
+
+  /* Light/Greyscale/Bg-Light */
+
+  background: #ffffff;
+  /* Light/Drop Shadows Z200 */
+
+  box-shadow: 0px 0px 20px rgba(132, 132, 132, 0.2);
+  border-radius: 16px;
+}
+.cpuUpdate_input {
+  border: 1px solid #c1c1c1;
+  border-radius: 8px;
+  padding: 10px 40px 10px 40px;
+  margin: 10px 40px;
+}
+.cpuUpdate_input2 {
+  border-radius: 8px;
+  padding: 20px 40px 10px 40px;
+  margin: 10px 40px;
+}

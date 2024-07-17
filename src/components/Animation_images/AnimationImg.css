@@ -1,0 +1,9 @@
+.animation-images {
+  /* transition: all 1s; */
+  height: 500px;
+  width: 500px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

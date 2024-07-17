@@ -1,0 +1,82 @@
+.button-container-active {
+  width: 89px;
+  height: 22px;
+  background-color: rgba(58, 201, 34, 0.2);
+  border: none;
+  border-radius: 12.5px;
+  color: #3ac922;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+.button-container-inactive {
+  width: 89px;
+  height: 22px;
+  background-color: rgba(138, 138, 138, 0.2);
+  border: none;
+  border-radius: 12.5px;
+  /* color: #3ac922; */
+  color: #8a8a8a;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+.button-container-inprogress {
+  width: 89px;
+  height: 22px;
+  background: #cce3f2;
+  border: none;
+  border-radius: 12.5px;
+  color: #0074bc;
+
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+.button-container-hold {
+  width: 89px;
+  height: 22px;
+  background-color: rgba(138, 138, 138, 0.2);
+  border: none;
+  border-radius: 12.5px;
+  background: #fff5cd;
+  color: #dcaf00;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+.button-container-cancelled {
+  width: 89px;
+  height: 22px;
+  background-color: rgba(138, 138, 138, 0.2);
+  border: none;
+  border-radius: 12.5px;
+  background: rgba(255, 48, 48, 0.2);
+  color: #ff3030;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+.button-container-completed {
+  width: 89px;
+  height: 22px;
+  background-color: rgba(58, 201, 34, 0.2);
+  border: none;
+  border-radius: 12.5px;
+  color: #3ac922;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}

@@ -1,0 +1,39 @@
+.mainContainer_serplace {
+  /* background-color: pink; */
+  height: calc(100vh - 85px);
+  width: 100%;
+  /* border: solid blue; */
+  /* padding: 32px 39px 32px 39px; */
+}
+.Container_serplace {
+  border: solid transparent;
+  margin: 32px 39px 32px 39px;
+  height: 90%;
+}
+.headerText_serplace {
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #181818;
+  /* position: absolute; */
+  margin-bottom: 50px;
+  /* border: solid red; */
+  margin-left: 20px;
+}
+.innerheader_serplace {
+  margin-bottom: 30px;
+  display: flex;
+  /* align-items: center; */
+  height: 40px;
+
+  width:100%;
+  justify-content: space-between;
+}
+.searchComponents_serplace {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+

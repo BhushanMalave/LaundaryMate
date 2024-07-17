@@ -1,0 +1,38 @@
+.calendarWrap {
+  position: relative;
+  /* z-index: 9999; */
+}
+.calendarElement {
+  position: absolute;
+  top: 50px;
+  left: -30px;
+  /* z-index: 3; */
+}
+.mdp-inputwrap {
+  width: 272px;
+  height: 44px;
+  display: flex;
+}
+.inputBox {
+  width: 272px;
+  height: 44px;
+  padding-left: 20px;
+  font-family: "regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #181818;
+  background: #ffffff;
+  border: 1px solid #c1c1c1;
+  border-radius: 8px;
+}
+.cal-icon {
+  width: 12px;
+  height: 13.33px;
+  display: flex;
+  align-self: center;
+  position: absolute;
+  right: 0;
+  margin-right: 15px;
+}

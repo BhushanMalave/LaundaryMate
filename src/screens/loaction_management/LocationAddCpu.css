@@ -1,0 +1,32 @@
+.locationCpuShiftHead{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.locationCpuQuesImage{
+    margin-left: 10px;
+}
+
+.locationAddCpuTable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.locationAddCpuShiftText{
+    font-family: "Bold";
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.locationAddCpuShiftLength{
+    font-family: "Bold";
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:#808080
+}

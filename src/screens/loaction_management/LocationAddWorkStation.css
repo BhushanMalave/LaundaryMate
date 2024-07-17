@@ -1,0 +1,21 @@
+.locationCreateWorkStationContent {
+  min-height: 150px;
+  /* padding-bottom: 5px; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  /* border: 1px solid; */
+  margin-left: 50px;
+}
+.locationWorkStationShift {
+  width: 97%;
+  background-color: #fffae1;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}

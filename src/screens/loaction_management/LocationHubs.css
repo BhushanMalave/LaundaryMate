@@ -1,0 +1,20 @@
+.Location-Hub-Empty-Div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 215px);
+}
+.edit-location-button-container {
+  border-top: 1px solid #ededed;
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.edit-location-cancel-text {
+  color: #0074bc;
+  color: #0074bc;
+  font-family: "bold";
+  margin: 30px 30px 0px 30px;
+}

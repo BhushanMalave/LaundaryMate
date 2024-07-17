@@ -1,0 +1,78 @@
+.route-plan-management-table-container {
+  width: 100%;
+  border-color: #e2e1e6;
+  border-top: 1px solid #e2e1e6;
+  border-collapse: separate;
+  border-spacing: 0 2px;
+  /* padding: 0 0 0 2.64%; */
+  margin-top: 20px;
+}
+.route-plan-management-table-head-main {
+  width: 100%;
+  border-style: solid;
+}
+.route-plan-management-table-head-row {
+  background-color: #f3f3f5;
+  /* border: 6px solid blue; */
+  color: #808080;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  height: 50px;
+  width: 100%;
+  /* padding-left: 2px;  */
+}
+.route-plan-management-table-head-data1 {
+  text-align: left;
+  padding-left: 16px;
+  width: 160px;
+  /* border: 1px solid red;  */
+}
+.route-plan-management-table-head-data {
+  text-align: left;
+}
+.route-plan-management-table-content-row {
+  background-color: #ffffff;
+  height: 80px;
+}
+.route-plan-management-table-content-row:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 80px;
+}
+.route-plan-management-table-content-data1 {
+  text-align: left;
+  padding-left: 16px;
+  font-family: "Bold";
+  font-style: normal;
+  /* font-weight: 700; */
+  font-size: 14px;
+  line-height: 18px;
+  /* border: 1px solid red;  */
+  color: #0074bc;
+}
+.route-plan-management-table-content-data1:hover {
+  color: rgb(3, 63, 148);
+}
+.route-plan-management-table-content-data {
+  text-align: left;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.route-plan-management-down-arrow {
+  width: 8px;
+  height: 12px;
+  margin-left: 10px;
+}
+.route-plan-management-table-hubid-width {
+  width: 130px;
+  min-width: max-content;
+}
+.route-plan-management-table-mobilenumber-width {
+  width: 170px;
+}

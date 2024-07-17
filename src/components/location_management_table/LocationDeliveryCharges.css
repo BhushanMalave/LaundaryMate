@@ -1,0 +1,16 @@
+.locationCharges {
+  display: flex;
+  flex-direction: column;
+}
+
+.locationChargesContent {
+  display: flex;
+  align-items: center;
+}
+
+.locationDeliveryText {
+  font-family: "Bold";
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 20px;
+}

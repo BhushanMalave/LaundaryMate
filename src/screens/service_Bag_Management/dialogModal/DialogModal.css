@@ -1,0 +1,205 @@
+.dialogmodal {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* Overlay effect: translucent background: black w/ partial opacity */
+  z-index: 1; /* Overlay effect: positioned over other containers */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  position: fixed; /* Fix position on the top-left corner*/
+  top: 0;
+  left: 0;
+  overflow: auto; /* Enable scroll if needed */
+}
+/* Modal content */
+.dialogmodal-content {
+  margin: 250px auto;
+
+  height: 548px;
+  width: 40%;
+  border: 1px solid #979797;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 24px;
+
+  position: relative;
+  width: 480px;
+  height: 437px;
+
+  /* Light/Greyscale/Bg-Light */
+
+  background: #ffffff;
+  /* Light/Drop Shadows Z200 */
+
+  box-shadow: 0px 0px 20px rgba(132, 132, 132, 0.2);
+  border-radius: 16px;
+}
+
+.dialogModalText {
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Light/Greyscale/Text-primary */
+
+  color: #181818;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+/* Close button */
+.dialogclose {
+  color: #aaaaaa;
+  float: right;
+  /* margin-top: -30px;
+  margin-right: -30px; */
+  font-size: 25px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.dialogclose-button {
+  height: 16px;
+  width: 16px;
+  /* position: absolute; */
+
+  /* transform: rotate(315deg);  */
+}
+.dialogmodal-innercontent {
+  height: 100%;
+ 
+  width: 100%;
+}
+.dialogModal-contenttext {
+  width: 400px;
+  height: 40px;
+
+  /* Text/Text M */
+
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+
+  display: flex;
+  align-items: center;
+
+  /* Light/Greyscale/Text-primary */
+
+  color: #181818;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.dialognameContainer {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px 0;
+}
+.dialogModal-hubheader{
+    font-family: 'Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+
+display: flex;
+align-items: center;
+
+/* Dark/Grayscale/Text-secondary */
+
+color: #9D9D9D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.dialogModal-hubname{
+    font-family: 'Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+/* or 129% */
+
+display: flex;
+align-items: center;
+
+/* Dark/Grayscale/Text-secondary */
+
+color: black;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.dialogModal-choosefile {
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 6px 16px;
+  gap: 4px;
+
+  width: 400px;
+  height: 58px;
+
+  /* Light/Greyscale/Bg-Light */
+
+  background: #ffffff;
+  /* Light/Greyscale/Text-tertiary */
+
+  border: 1px solid #c1c1c1;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.dialogModal-img{
+    margin: 20px 0;
+}

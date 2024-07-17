@@ -1,0 +1,21 @@
+.locationCountryFilter {
+  height: 84px;
+  display: flex;
+  align-items: center;
+}
+
+table{
+    width:100%;
+    background-color: #F3F3F5;
+}
+
+th{
+    font-family: "Regular";
+    font-size: 12px;
+    line-height: 16px;
+    color:#808080;
+}
+
+tr{
+    height:50px;
+}

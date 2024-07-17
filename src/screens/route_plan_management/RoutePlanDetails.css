@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .route-plan-details-container {
+  width: 100%;
+  height: calc(100% - 3.77% );
+  overflow: scroll;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  }
+  .route-plan-details-container::-webkit-scrollbar{
+    display: none;
+  }
+.route-plan-details-main-heading {
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+  padding: 26px 38px;
+}
+  .route-plan-details-back-div {
+    display: flex;
+    align-items: center;
+    width: 300px;
+  }
+  .route-plan-details-back-icon {
+    width: 20px;
+    height: 12px;
+    margin-right: 10px;
+  }
+  .route-plan-details-back-employee-id {
+    font-family: "Bold";
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 32px;
+    line-height: 40px;
+    color: #181818;
+    text-transform: uppercase;
+  }
+  .route-plan-details-linking-section{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 40px;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 32px;
+    overflow-x: scroll
+  }
+  .route-plan-details-section-div{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 20px 20px 34px 20px;
+    height: max-content;
+  }
+  .route-plan-details-section-div-margintop{
+    margin-top: 20px;
+  }
+  .route-plan-details-Heading-Text{
+    margin-top: 20px;
+    font-family: 'Bold';
+  font-style: normal;
+  /* font-weight: 700; */
+  font-size: 14px;
+  line-height: 18px;
+  }
+  .route-plan-details-content-div{
+    display: flex;
+    align-items:flex-start;
+    justify-content:left;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    /* gap: 10px 10px; */
+  
+  }
+  .route-plan-details-content-first-div-margin-top{
+    margin-top: 20px;
+  }
+
+  .route-plan-details-Section-Employee-Role{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-items: flex-end;
+  }
+  .route-plan-details_edit{
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+  }
+  .route-plan-details-map-content-div{
+    display: flex;
+    align-items:flex-start;
+    justify-content:left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+    margin-top: 20px;
+  
+  }
+  

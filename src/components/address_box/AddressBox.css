@@ -1,0 +1,40 @@
+.address-box-container {
+  height: max-content;
+  min-height: 156px;
+  width: 400px;
+  /* border: 1px solid red; */
+  background: #f8f8f8;
+  padding: 20px 30px 20px 16px;
+  border: 1px solid #F8F8F8;
+border-radius: 8px;
+}
+.address-box-heading1 {
+  font-family: "Bold";
+  font-style: normal;
+  /* font-weight: 700; */
+  font-size: 16px;
+  line-height: 20px;
+  color: #181818;
+  text-transform: uppercase;
+}
+.address-box-type-text{
+text-transform: capitalize;
+}
+.address-box-heading2 {
+  margin-top: 10px;
+  font-family: "Regular";
+  font-style: normal;
+  /* font-weight: 700; */
+  font-size: 14px;
+  line-height: 18px;
+  color: #181818;
+  text-transform: capitalize;
+}
+.address-box-address {
+  font-family: "Regular";
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+  margin-top: 10px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,30 @@
+.mainContainer_ser {
+  /* background-color: pink; */
+  height: calc(100vh - 85px);
+  width: calc(100vw - 77px);
+  /* border: solid blue; */
+  /* padding: 32px 39px 32px 39px; */
+}
+.Container_ser {
+  border: solid transparent;
+  margin: 32px 39px 32px 39px;
+  height: 90%;
+}
+.headerText_ser {
+  height: 40px;
+  width: 399px;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #181818;
+  position: absolute;
+  margin-bottom: 50px;
+  /* border: solid red; */
+  /* margin-left: 50px; */
+}
+.searchComponents_ser{
+  display: flex;
+  /* margin-top: 70px; */
+}

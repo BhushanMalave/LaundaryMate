@@ -1,0 +1,73 @@
+.locationAddCon {
+  position: sticky;
+  z-index: 2;
+  min-height: calc(100vh);
+  width: 100%;
+  background-color: #fafafa;
+  padding-bottom: 5px;
+}
+
+.locationCountyHeadText1 {
+  font-family: "Bold";
+  font-size: 32px;
+  line-height: 40px;
+  margin-left: 40px;
+}
+
+.locationCountyStateButton {
+  margin-right: 45px;
+  display: flex;
+}
+
+.locationAddStateHeader {
+  height: 102px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.locationAddStateContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.locationAddStateContent4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locationCreateStateContent {
+    min-height: 269px;
+    padding-bottom: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+
+
+.locationCreateStateContent1 {
+  min-height: 269px;
+  padding-bottom: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin-top: 20px;
+}
+
+.locationCreateStateContent7 {
+  min-height: 188px;
+  padding-bottom: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin-top: 20px;
+}
+
+.locationProcessAddStation{
+  display: flex;
+}

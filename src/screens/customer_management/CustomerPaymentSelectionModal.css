@@ -1,0 +1,173 @@
+.credit-debit-modal {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: auto;
+  left: 0;
+  flex-direction: row;
+}
+.credit-debit-modal-content {
+  right: 0;
+  height: 100%;
+  width: 444px;
+  position: fixed;
+  background-color: white;
+}
+.credit-debit-modal-innercontent {
+  height: 85%;
+  overflow: scroll;
+}
+.credit-debit-modal-header {
+  height: 60px;
+  border: 1px solid #e6e7e9;
+}
+.credit-debit-modaltext {
+  position: absolute;
+  height: 24px;
+  font-family: "Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  color: #181818;
+  margin: 15px 40px;
+}
+.credit-debit-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+}
+.credit-debit-close:hover,
+.credit-debit-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.credit-debit-close-button {
+  height: 14px;
+  width: 14px;
+
+  margin: 15px 15px;
+}
+
+.credit-debit-table-containermodal {
+  border-collapse: separate;
+  border-spacing: 0 1px;
+  border-top: 1px solid #e2e1e6;
+}
+.credit-debit-table-head-rowmodal {
+  background-color: #f3f3f5;
+  height: 50px;
+  width: 577px;
+  position: relative;
+  display: flex;
+  padding-left: 40px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 49px;
+  /* border: 1px solid blue; */
+}
+.input-text-area-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.credit-input {
+  box-sizing: border-box;
+  display: flex;
+  padding: 16px;
+  gap: 4px;
+  width: 364px;
+  height: 58px;
+  background: #f8f8f8;
+  border: 1px solid #f8f8f8;
+  border-radius: 8px;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #c1c1c1;
+}
+.credit-text-area {
+  box-sizing: border-box;
+  min-width: 364px;
+  max-width: 364px;
+  max-height: 100px;
+  min-height: 100px;
+  background: #f8f8f8;
+  border: 1px solid #f8f8f8;
+  border-radius: 8px;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #c1c1c1;
+  padding: 10px;
+  margin-top: 40px;
+}
+.textarea-count-content {
+  min-width: 364px;
+  min-height: 100px;
+}
+.word-count {
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  color: #c1c1c1;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.bottom-container {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #e6e7e9;
+  width: 100%;
+  height: 70px;
+  /* justify-content: center; */
+  position: absolute;
+  bottom: 0;
+  /* justify-content: space-evenly; */
+}
+.button-credit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  /* width: 150px; */
+  height: 44px;
+  background: #efefef;
+  border-radius: 8px;
+  border: none;
+  margin-left: 7%;
+  margin-right: 5%;
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #8a8a8a;
+}
+.radio-button-container{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 100px;
+    margin-left: 10%;
+}
